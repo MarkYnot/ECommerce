@@ -37,13 +37,13 @@ In terms of using the PhoneZone web application, firstly the user have to regist
     - db.getCollection('products').update({"brand":"Nokia"},{$set:{"image":"Nokia.jpeg"}},false,true)
     - db.getCollection('products').update({"brand":"LG"},{$set:{"image":"LG.jpeg"}},false,true)
     - example
-      - ![image](https://github.sydney.edu.au/COMP5347-2021/WebDev_G8/blob/master/README%20image/example.png)
+      - ![image](https://github.com/MarkYnot/ECommerce/blob/master/README%20image/example.png)
 
   - *Note: make sure your databases' name and collection name are same with the backend of the application
 
   - Configure files in MongoDB
 
-    ![image](https://github.sydney.edu.au/COMP5347-2021/WebDev_G8/blob/master/README%20image/WechatIMG1772.png)
+    ![image](https://github.com/MarkYnot/ECommerce/blob/master/README%20image/WechatIMG1772.png)
 
     *Note: if you have any questions, please check and review this link https://docs.mongodb.com/manual/reference/configuration-options/
 
