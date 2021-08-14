@@ -1,4 +1,4 @@
-# COMP5347 Assignment 2 - PhoneZone
+# ECommerce syetem - PhoneZone
 
 The overview of this project is build an eCommerce web application which name is PhoneZone. For this web application, the user can check all the information of phone products which stored in the database and also supported sign-in/sign-up, checkout, manage profiles all relevant operations.
 
