@@ -13,23 +13,22 @@ In terms of using the PhoneZone web application, firstly the user have to regist
 - npx kill-port 3000
 - npx kill-port 8080
 
-### Installing
+### Database Installing
 
-- Database Initialisation
-
-  - Create two databases 
+  ***Create two databases***
 
     - One name is Product
       - Create products collection
     - One name is User
       - Create users collection
 
-  - Import data
+  ***Import data***
 
-    - mongoimport --db Product --collection products --file path/phonelisting_demo.json --jsonArray
-    - mongoimport --db User --collection users --file path/userlist_demo.json file --jsonArray
+  - mongoimport --db Product --collection products --file path/phonelisting_demo.json --jsonArray
+  - mongoimport --db User --collection users --file path/userlist_demo.json file --jsonArray
+  - Another way, import the json files from dataset File 
     
-  - User Robot 3T update database
+  ***User Robot 3T update database***
     - db.getCollection('products').update({"brand":"Samsung"},{$set:{"image":"Samung.jpeg"}},false,true)
     - db.getCollection('products').update({"brand":"Apple"},{$set:{"image":"Apple.jpeg"}},false,true)
     - db.getCollection('products').update({"brand":"Sony"},{$set:{"image":"Sony.jpeg"}},false,true)
@@ -39,13 +38,15 @@ In terms of using the PhoneZone web application, firstly the user have to regist
     - example
       - ![image](https://github.com/MarkYnot/ECommerce/blob/master/README%20image/example.png)
 
-  - *Note: make sure your databases' name and collection name are same with the backend of the application
+   * Note: make sure your databases' name and collection name are same with the backend of the application
 
-  - Configure files in MongoDB
+  ***Configure files in MongoDB***
 
-    ![image](https://github.com/MarkYnot/ECommerce/blob/master/README%20image/WechatIMG1772.png)
+  ![image](https://github.com/MarkYnot/ECommerce/blob/master/README%20image/WechatIMG1772.png)
 
-    *Note: if you have any questions, please check and review this link https://docs.mongodb.com/manual/reference/configuration-options/
+  * Note: if you have any questions, please check and review this link https://docs.mongodb.com/manual/reference/configuration-options/
+
+### Dependency Installing
 
 - To install all needed dependencies
   - npm install
@@ -66,7 +67,7 @@ In terms of using the PhoneZone web application, firstly the user have to regist
 
 ### Authors
 
-- Dairu Xiao 470052680
-- Junjie Lin 510200093
-- Mengjie Zhou 470169449
+- Dairu Xiao 
+- Junjie Lin 
+- Mengjie Zhou 
 
