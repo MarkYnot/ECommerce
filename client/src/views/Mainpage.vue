@@ -581,6 +581,17 @@ export default {
   margin-top: 5%;
 }
 
+.stock{
+  border: 1px solid grey;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-rows:auto;
+  height: auto;
+}
+
 #soldOut {
   grid-row: 1;
   grid-column: 1;
@@ -599,16 +610,7 @@ export default {
   grid-row-gap: 5px;
 }
 
-.stock{
-  border: 1px solid grey;
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  display: grid;
-  grid-template-rows:auto;
-  height: auto;
-}
+
 
 .sell{
   border: 1px solid grey;

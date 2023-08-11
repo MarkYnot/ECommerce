@@ -93,7 +93,6 @@ export default {
             this.lastname = base64.decode(this.lastname);
             this.email = base64.decode(this.email);
             this.loginState = this.$cookies.get("state");
-
             // console.log(this.firstname);
             // console.log(this.email);
         },
@@ -112,12 +111,10 @@ export default {
                 this.getCartItems();
             }
             //this.$router.go(0);
-            this.reload();
-          
+            this.reload();  
         },
 
         async editCart (flag, item) {
-
             let editNumber = item.addQuantity;
             let productTitle = item.title;
             if (flag == 'minus' && item.addQuantity >= 2) {
@@ -179,7 +176,6 @@ export default {
                 }
                 this.reload();
                 this.$router.go(-1);
-
             }
 
         }

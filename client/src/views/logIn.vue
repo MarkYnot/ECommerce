@@ -36,7 +36,6 @@
                 unseenImg: require("../assets/see0.png"),  
                 seenImg: require("../assets/see1.png"),   
                 pwdType: false
-
             }
         },
         methods: {
@@ -70,6 +69,7 @@
                         this.$cookies.set("state", true,"30min");
                         this.$cookies.set("username", username,"30min");
                         this.$cookies.set("userid", userid, "30min");
+                        
                         this.$router.push({path: "/"})
                     }else{
                         alert(this.data.message)

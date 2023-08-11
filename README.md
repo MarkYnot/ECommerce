@@ -65,9 +65,5 @@ In terms of using the PhoneZone web application, firstly the user have to regist
 - if an image is existing in the folder /client/public/static/
 - the upload is not allowed and return to the user profit page 
 
-### Authors
 
-- Dairu Xiao 
-- Junjie Lin 
-- Mengjie Zhou 
 
